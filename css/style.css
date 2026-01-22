@@ -3733,46 +3733,10 @@ hr {
   font-size: 1rem;
 }
 
-/* Media Queries */
-/*Laptop*/
-@media (max-width: 1200px) {
-  html {
-    font-size: 75%;
-  }
-}
-
 /*Tablet*/
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
-  }
-}
-
-.title .content {
-  flex-wrap: wrap;
-}
-
-.container .cake {
-  flex-wrap: wrap;
-}
-
-.container .cake .yeay {
-  flex-wrap: wrap;
-}
-
-.last {
-  flex-wrap: wrap;
-}
-
-.contact .container {
-  flex-wrap: wrap;
-}
-
-
-/*Mobile*/
-@media (max-width: 450px) {
-  html {
-    font-size: 55%;
   }
 }
 
