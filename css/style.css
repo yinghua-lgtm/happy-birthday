@@ -3732,9 +3732,9 @@ hr {
 }
 
 /*Tablet*/
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   html {
-    font-size: 55%;
+    font-size: 62.5%;
   }
 
   .container {
@@ -3858,6 +3858,138 @@ hr {
     border: none;
     cursor: pointer;
     margin-left: 247px;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    padding: 2rem 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .yeay h1 {
+    float: right;
+    margin-right: 0.1rem;
+    width: 130%;
+    margin-top: 42rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .yeay .item {
+    float: right;
+    margin-right: 0.1rem;
+    width: 130%;
+    font-size: 1.2rem;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .yeay .item2 {
+    float: right;
+    margin-top: 1rem;
+    margin-right: 0.1rem;
+    width: 130%;
+    font-size: 1.2rem;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .yeay h2 {
+    float: right;
+    margin-right: 0.1rem;
+    width: 130%;
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .last {
+    padding: 0.1rem 1%;
+    max-width: 100rem;
+  }
+
+  .last .p1 {
+    font-size: 1rem;
+    color: #461d1d;
+    line-height: 1.5;
+    margin-top: 2rem;
+  }
+
+  .last .p2 {
+    font-size: 1rem;
+    color: #461d1d;
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+  .contact {
+    background-color: var(--primary);
+    padding: 1rem 5% 1rem;
+  }
+
+  .contact .container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .contact .container h2 {
+    float: right;
+    margin-left: 5rem;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .contact .container .contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+
+  .contact .container .contact-wrapper .contact-form {
+    text-align: left;
+  }
+
+  .contact .container .contact-wrapper .contact-form .form-group input,
+  textarea {
+    margin-left: 5px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--bg);
+    color: #461d1d;
+  }
+
+  .contact .container .contact-wrapper .contact-form .form-group input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #2b1d1d;
+  }
+
+  .contact .container .contact-wrapper .contact-form button {
+    display: flex;
+    padding: 6px 12px;
+    background-color: #432323;
+    color: var(--bg);
+    border: none;
+    cursor: pointer;
+    margin-left: 260px;
     margin-top: 1rem;
     border-radius: 5px;
   }
