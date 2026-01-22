@@ -3,6 +3,10 @@
   --bg: #fcdbdb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,12 +66,17 @@ body {
 }
 
 .home .content .cta {
+  border-radius: 0.5rem;
   margin-top: 1.9rem;
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.2rem;
   color: #fcf5f5;
   background-color: #c9a1a1;
+}
+
+.home .content .cta:hover {
+  background-color: #855a5a;
 }
 
 .title .content {
@@ -3698,10 +3707,14 @@ textarea:focus {
   border-radius: 5px;
 }
 
+.contact .container .contact-wrapper .contact-form button:hover {
+  background-color: #795548;
+}
+
 hr {
   border: 0;
-  height: 1px;
-  background: #461d1d;
+  height: 0.7px;
+  background: #2b1d1d;
 }
 .footer {
   background-color: var(--bg);
@@ -3729,7 +3742,6 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-bottom: 500px;
   }
 
   .yeay h1 {
@@ -3790,5 +3802,63 @@ hr {
     color: #461d1d;
     line-height: 1.5;
     margin-top: 1rem;
+  }
+  .contact {
+    background-color: var(--primary);
+    padding: 1rem 5% 1rem;
+  }
+
+  .contact .container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  .contact .container h2 {
+    float: right;
+    margin-left: 2rem;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #461d1d;
+    line-height: 1.5;
+  }
+
+  .contact .container .contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+
+  .contact .container .contact-wrapper .contact-form {
+    text-align: left;
+  }
+
+  .contact .container .contact-wrapper .contact-form .form-group input,
+  textarea {
+    margin-left: 2px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--bg);
+    color: #461d1d;
+  }
+
+  .contact .container .contact-wrapper .contact-form .form-group input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #2b1d1d;
+  }
+
+  .contact .container .contact-wrapper .contact-form button {
+    display: flex;
+    padding: 6px 12px;
+    background-color: #432323;
+    color: var(--bg);
+    border: none;
+    cursor: pointer;
+    margin-left: 247px;
+    margin-top: 1rem;
+    border-radius: 5px;
   }
 }
