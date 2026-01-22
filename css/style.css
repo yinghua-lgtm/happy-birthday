@@ -3763,6 +3763,10 @@ hr {
     font-size: 3rem;
   }
 
+  .cake {
+    transform: scale(0.8);
+  }
+
   .yeay h1,
   .yeay .item,
   .yeay .item2 {
@@ -3807,11 +3811,17 @@ hr {
   }
 
   .home .content h1 {
+    margin-left: 2rem;
     font-size: 2rem;
   }
 
   .home .content p {
+    margin-left: 2rem;
     font-size: 1rem;
+  }
+
+  .home .content .cta {
+    margin-left: 2rem;
   }
 
   .title .content h1 {
@@ -3824,9 +3834,11 @@ hr {
 
   .yeay h1 {
     font-size: 1.8rem;
+    margin-top: 38rem;
   }
 
   .yeay h2 {
+    margin-top: 2rem;
     font-size: 1.5rem;
   }
 
@@ -3841,6 +3853,7 @@ hr {
 
   .photos {
     gap: 1rem;
+    margin-top: 1rem;
   }
 
   .photos img {
@@ -3849,10 +3862,12 @@ hr {
 
   .last .p1,
   .last .p2 {
+    padding: 0.5rem 5%;
     font-size: 0.9rem;
   }
 
   .cake {
+    margin-left: 1.5rem;
     transform: scale(0.7);
   }
 }
